@@ -1,0 +1,14 @@
+version: '3'
+services:
+  landing:
+    build: .
+    container_name: landing
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    networks:
+      - landing-nw
+
+networks:
+  landing-nw:
+    external: true
