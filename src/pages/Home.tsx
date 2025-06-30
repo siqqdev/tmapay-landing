@@ -56,12 +56,6 @@ const Home = () => {
                 <Services />
 
                 <div
-                    className="mt-12 mb-12"
-                >
-                    <OurCases />
-                </div>
-
-                <div
                     className="px-6 mb-12"
                 >
                     <WorkStages />
